@@ -81,6 +81,48 @@
             Console.WriteLine($"Doubly Linked List tail node değeri: {tail.data}");
         }
 
-        
+        public Node DeleteLastNode()
+        {
+            if (length == 0)
+                return null;
+
+            var temp = tail;
+
+            if (length == 1)
+            {
+                head = null;
+                tail = null;
+            }
+            else
+            {
+                tail = tail.prev;
+                tail.next = null;
+                temp.prev = null;
+            }
+            length--;
+             return temp;
+        }
+
+        public Node DeleteFirstNode()
+        {
+            if (length == 0)
+                return null;
+
+            var temp = head;
+
+            if (length == 1)
+            {
+                head = null;
+                tail = null;
+            }
+            else
+            {
+                head = head.next;
+                head.prev = null;
+                temp.next = null;
+            }
+            length--;
+            return temp;
+        }
     }
 }
