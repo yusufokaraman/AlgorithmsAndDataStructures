@@ -38,5 +38,49 @@
             }
             length++;
         }
+
+        public void Print()
+        {
+            Console.WriteLine("Doubly LinkedList içerisindeki node değerleri");
+            Console.WriteLine("--------------------------------------------");
+            var temp = head;
+
+            while (temp != null)
+            {
+                Console.WriteLine(temp.data);
+                temp = temp.next;
+            }
+        }
+
+
+        public void PrintLength()
+        {
+            Console.WriteLine($"Doubly Linked List node sayısı: {length}");
+        }
+
+        public void PrintHead()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Doubly LinkedList içerisinde veri bulunmamaktadır.");
+                return;
+            }
+
+            Console.WriteLine($" Doubly Linked List head node değeri: {head.data}");
+        }
+
+        public void PrintTail()
+        {
+            // or tail!= null -> console.writeline(tail.data)
+            if (tail == null)
+            {
+                Console.WriteLine("Doubly LinkedList içerisinde veri bulunmamaktadır.");
+                return;
+            }
+
+            Console.WriteLine($"Doubly Linked List tail node değeri: {tail.data}");
+        }
+
+        
     }
 }
