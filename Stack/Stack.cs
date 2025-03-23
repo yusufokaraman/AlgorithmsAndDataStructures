@@ -46,5 +46,15 @@ namespace Stack
             }
         }
 
+        public void PrintTop()
+        {
+            Console.WriteLine("Top : " + top.data);
+        }
+
+        public void PrintCount()
+        {
+            Console.WriteLine("Count: " + count);
+        }
+
     }
 }

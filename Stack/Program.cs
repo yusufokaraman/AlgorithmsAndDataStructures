@@ -8,6 +8,8 @@
             stack.Push(1);
             stack.Push(2);
             stack.PrintAll();
+            stack.PrintTop();
+            stack.PrintCount();
         }
     }
 }
