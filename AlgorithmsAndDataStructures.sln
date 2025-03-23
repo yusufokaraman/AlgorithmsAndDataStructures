@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsAndDataStructures
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{5B39DD1B-2E39-49CF-A2FD-BD57CA9E0226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoublyLinkedLists", "DoublyLinkedLists\DoublyLinkedLists.csproj", "{0F128DEA-D1CC-4F1C-B059-0D73DCE84717}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoublyLinkedLists", "DoublyLinkedLists\DoublyLinkedLists.csproj", "{0F128DEA-D1CC-4F1C-B059-0D73DCE84717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{FB33517E-C80A-49B8-A8F2-CF66D23CF364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0F128DEA-D1CC-4F1C-B059-0D73DCE84717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F128DEA-D1CC-4F1C-B059-0D73DCE84717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F128DEA-D1CC-4F1C-B059-0D73DCE84717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB33517E-C80A-49B8-A8F2-CF66D23CF364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB33517E-C80A-49B8-A8F2-CF66D23CF364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB33517E-C80A-49B8-A8F2-CF66D23CF364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB33517E-C80A-49B8-A8F2-CF66D23CF364}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
